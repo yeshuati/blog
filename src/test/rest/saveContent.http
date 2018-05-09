@@ -1,0 +1,12 @@
+### Test for Save Content
+POST  http://localhost:8081/posts
+Cookie: userId=peter
+Content-Type: application/json
+
+{
+    "title": "IntelliJ의 .http를 사용해 Postman 대체하기",
+    "content": "안녕하세요! 이번 시간엔 IntelliJ의 .http 파일을 어떻게 사용하는지 소개드리겠습니다.\n모든 코드는 Github에 있습니다!",
+    "author": "jojoldu.tistory.com"
+}
+
+###
